@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&family=Poppins:ital,wght@0,100;0,500;0,600;1,900&display=swap");
+
+:root {
+  --red: #a71e1e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #efdddd;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0 5px rgba(4, 4, 4, 0.341);
+}
+
+header .logo {
+  font-size: large;
+  background: #efdddd;
+  color: #6b3333;
+  font-weight: bolder;
+  padding: 0 20px;
+}
+
+header .logo span {
+  color: var(--red);
+}
+
+header .navbar a {
+  font-size: medium;
+  background: #efdddd;
+  padding: 0 1.5rem;
+  color: #6b3333;
+}
+
+header .navbar a:hover {
+  color: var(--red);
+}
+
+section {
+  padding: 85px;
+}
+
+h1 {
+  font-family: "Trebuchet MS";
+  text-transform: uppercase;
+  text-align: center;
+  color: salmon;
+  padding: 20px;
+}
+
+table {
+  border: 1px solid #ddeeee;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  margin: 10px auto 10px auto;
+}
+
+table tr th {
+  background-color: #efdddd;
+  border: 1px solid#eedddd;
+  color: #6b3333;
+  padding: 10px 20px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+table tr td {
+  border: 1px solid #ddeeee;
+  color: #333;
+  padding: 10px 25px;
+  text-align: left;
+}
+
+a {
+  background-color: salmon;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
